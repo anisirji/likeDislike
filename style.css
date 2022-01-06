@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: rgba(76, 194, 92, 0.801);
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.img1{
+    width: 50%;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px 20px;
+    color: #efefef;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s;
+    user-select: none;
+} 
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.like{
+    background-color: green;
+}
+
+.dislike{
+    background-color: tomato;
+}
+
+.likes{
+    font-size: 80px;
+}
